@@ -9,7 +9,6 @@ import { Component, Input } from '@angular/core';
   styles: [
     `
       .card-title {
-        
         color: blue;
       }
     `,
@@ -27,7 +26,7 @@ export class FuncionarioCardComponent {
   }
 
   isAdmin() {
-    return this.funcionario.nome.startsWith('T')
+    return this.funcionario.nome.startsWith('T');
   }
 
   getListaClassCss() {
