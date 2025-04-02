@@ -1,5 +1,7 @@
+
+
 <div class="container">
-  <div class="grid">
+  <div class="grid ">
     <div class="col-12">
       <h1>Lançamentos</h1>
     </div>
@@ -24,11 +26,11 @@
     </div>
   </div>
 
-  <div class="grid">
+  <div class="grid ">
     <div class="col-12">
       <p-table
         [value]="lancamentos"
-        showGridlines
+        showGridlines=""
         stripedRows
         [paginator]="true"
         [rows]="5"
@@ -37,12 +39,12 @@
       >
         <ng-template #header>
           <tr>
-            <th>Pessoa</th>
-            <th>Tipo</th>
-            <th>Descrição</th>
-            <th>Data de vencimento</th>
-            <th>Data de pagamento</th>
-            <th>Valor</th>
+            <th class="title-table">Pessoa</th>
+            <th class="title-table">Tipo</th>
+            <th class="title-table">Descrição</th>
+            <th class="title-table">Data de vencimento</th>
+            <th class="title-table">Data de pagamento</th>
+            <th class="title-table">Valor</th>
           </tr>
         </ng-template>
         <ng-template #body let-lancamento>

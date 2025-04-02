@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { InputTextModule } from 'primeng/inputtext';
-import { MessageService } from 'primeng/api';
 import { FluidModule } from 'primeng/fluid';
 import { ButtonModule } from 'primeng/button';
 import { TableModule } from 'primeng/table';
